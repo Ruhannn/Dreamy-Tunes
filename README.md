@@ -2,11 +2,12 @@
 ## This is a lofi website that allows users to listen to Lofi music and create a relaxed atmosphere.
 > In the depths of night, where silence whispers,
 
-A gentle rhythm emerges, painting the air,
+> A gentle rhythm emerges, painting the air,
 
-Lofi beats, like soft raindrops, caress my soul,
 
-Transporting me to a realm where worries dissolve.
+> Lofi beats, like soft raindrops, caress my soul,
+
+> Transporting me to a realm where worries dissolve.
 
 
 <hr>
@@ -53,8 +54,8 @@ Transporting me to a realm where worries dissolve.
 
 ## Stay tuned with Lofi Girl!
 <hr>
-<a href="https://www.youtube.com/@LofiGirl" target="_blank"><img src="https://live.staticflickr.com/65535/53004346998_d468b6437d_o.png" width="45" alt="bb"></a> <img src="https://cdn.discordapp.com/emojis/867335504592240662.webp" width="45" alt="yy">
 
+<a href="https://www.youtube.com/@LofiGirl" target="_blank"><img src="https://live.staticflickr.com/65535/53004346998_d468b6437d_o.png" width="45" alt="bb"></a> <img src="https://cdn.discordapp.com/emojis/867335504592240662.webp" width="45" alt="yy">
 
 <a href="https://open.spotify.com/user/chilledcow" target="_blank"><img src="https://live.staticflickr.com/65535/53004030164_a5c5947e9b_o.png" width="45" alt="gg"></a> <img src="https://cdn.discordapp.com/emojis/867336943666462741.webp" width="45" alt="yy">
 
