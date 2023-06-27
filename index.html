@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="img/png" href="stuff/img/icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/png" href="stuff/img/icon.png" />
     <title>Dreamy Tunes</title>
-<link rel="stylesheet" href="styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
-<a href="credit/credit.html" target="_blank"><button style="font-family: 'Autour One', cursive;" class="button">Credit</button>
-</a>
-<h3>Calming beats, timeless relaxation</h3>
-<h4>touch here</h4>
-</head>
-<body>
-  
-  
-  <div class="ii">
-    <audio controls autoplay>
-      <source src="stuff/music/(1).mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <audio controls>
-      <source src="stuff/music/(2).mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <audio controls>
-      <source src="stuff/music/(3).mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <audio controls>
-      <source src="stuff/music/(4).mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <audio controls>
-      <source src="stuff/music/(5).mp3" type="audio/mpeg">
-    </audio>
-  </div>
-  
-      
-</body>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap"
+      rel="stylesheet"
+    />
+    <a href="credit/credit.html" target="_blank"
+      ><button style="font-family: 'Autour One', cursive" class="button">
+        Credit
+      </button>
+    </a>
+    <h3>Calming beats, timeless relaxation</h3>
+    <h4>touch here</h4>
+  </head>
+  <body>
+    <div class="ii">
+      <audio controls autoplay>
+        <source src="stuff/music/(1).mp3" type="audio/mpeg" />
+      </audio>
+      <br />
+      <audio controls>
+        <source src="stuff/music/(2).mp3" type="audio/mpeg" />
+      </audio>
+      <br />
+      <audio controls>
+        <source src="stuff/music/(3).mp3" type="audio/mpeg" />
+      </audio>
+      <br />
+      <audio controls>
+        <source src="stuff/music/(4).mp3" type="audio/mpeg" />
+      </audio>
+      <br />
+      <audio controls>
+        <source src="stuff/music/(5).mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+  </body>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
 
-<div id="timer">0:00</div>
-<script>
-  var timerElement = document.getElementById('timer');
-  
+  <div id="timer">0:00</div>
+  <script>
+    var timerElement = document.getElementById("timer");
 
-  var startTime = new Date().getTime();
-  var elapsedTime = 0;
-  
+    var startTime = new Date().getTime();
+    var elapsedTime = 0;
 
-  function updateTimer() {
- 
-    var currentTime = new Date().getTime();
-    elapsedTime = currentTime - startTime;
-  
- 
-    var minutes = Math.floor(elapsedTime / (1000 * 60));
-    var seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);
-  
- 
-    timerElement.textContent = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
-  }
-  
-
-  setInterval(updateTimer, 1000);
+    function updateTimer() {
+      var currentTime = new Date().getTime();
+      elapsedTime = currentTime - startTime;
+      var minutes = Math.floor(elapsedTime / (1000 * 60));
+      var seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);
+      timerElement.textContent =
+        minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+    }
+    setInterval(updateTimer, 1000);
   </script>
   <footer>
-<h3>Relax and find serenity through the calming tunes of lo-fi beats.</h3>
-</footer>
+    <h3>Relax and find serenity through the calming tunes of lo-fi beats.</h3>
+  </footer>
 </html>
